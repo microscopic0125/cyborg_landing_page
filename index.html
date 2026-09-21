@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CYBR//01 — Human x Machine futuristic landing page.">
+  <title>CYBR//01 — Human × Machine</title>
+
+  <!-- Futuristic fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- =========================
+       LOADING SCREEN
+  ========================== -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">CYBR<span>//01</span></div>
+      <p class="loader-status">INITIALIZING SYSTEM...</p>
+      <div class="loader-bar"><span id="loaderProgress"></span></div>
+      <p class="loader-percent" id="loaderPercent">00%</p>
+    </div>
+  </div>
+
+  <!-- Decorative scan line -->
+  <div class="scan-line"></div>
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">CYBR<span>//01</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">ABOUT</a>
+      <a href="#systems">SYSTEMS</a>
+      <a href="#core">CORE</a>
+      <a href="#future">FUTURE</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">CONNECT</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero section" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+
+      <div class="hero-content reveal">
+        <div class="system-tag">
+          <span class="status-dot"></span>
+          SYSTEM STATUS: ONLINE
+        </div>
+
+        <!-- EDIT THIS HEADING -->
+        <h1>
+          THE NEXT<br>
+          <span>EVOLUTION</span><br>
+          IS HUMAN.
+        </h1>
+
+        <!-- EDIT THIS DESCRIPTION -->
+        <p class="hero-description">
+          A futuristic interface exploring the convergence of
+          human intelligence, cybernetic systems and artificial intelligence.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#systems" class="btn btn-primary">
+            ENTER SYSTEM <span>↗</span>
+          </a>
+          <a href="#about" class="btn btn-secondary">
+            EXPLORE
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span>CORE</span>
+            <strong>98.7%</strong>
+          </div>
+          <div>
+            <span>NETWORK</span>
+            <strong>99.9%</strong>
+          </div>
+          <div>
+            <span>VERSION</span>
+            <strong>2.026</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- =========================
+           CYBORG VISUAL
+           Put your PNG in:
+           assets/images/cyborg.png
+      ========================== -->
+      <div class="hero-visual reveal">
+        <div class="visual-orbit orbit-1"></div>
+        <div class="visual-orbit orbit-2"></div>
+        <div class="visual-orbit orbit-3"></div>
+
+        <div class="visual-frame">
+          <div class="frame-corner corner-tl"></div>
+          <div class="frame-corner corner-tr"></div>
+          <div class="frame-corner corner-bl"></div>
+          <div class="frame-corner corner-br"></div>
+
+          <img src="images/cyborg3.jpg" alt="Futuristic cyborg" class="cyborg-image" id="cyborgImage">
+
+          <div class="hud hud-top">
+            <span>NEURAL LINK</span>
+            <strong>94.2%</strong>
+          </div>
+
+          <div class="hud hud-right">
+            <span>BIOMETRIC</span>
+            <strong>ACTIVE</strong>
+          </div>
+
+          <div class="hud hud-bottom">
+            <span>CYBERNETIC CORE</span>
+            <strong>ONLINE</strong>
+          </div>
+
+          <div class="target target-1"></div>
+          <div class="target target-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / SYSTEM OVERVIEW</p>
+        <h2>HUMAN <span>×</span> MACHINE</h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-copy reveal">
+          <p class="large-copy">
+            Where biology meets intelligent technology.
+          </p>
+          <p>
+            CYBR//01 is a visual concept for exploring the future of
+            cybernetic augmentation, neural interfaces and adaptive
+            artificial intelligence.
+          </p>
+        </div>
+
+        <div class="about-terminal reveal">
+          <div class="terminal-head">
+            <span>TERMINAL_01</span>
+            <span class="terminal-status">● LIVE</span>
+          </div>
+          <div class="terminal-body">
+            <p><span>&gt;</span> booting neural interface...</p>
+            <p><span>&gt;</span> connecting cybernetic layer...</p>
+            <p><span>&gt;</span> synchronizing AI core...</p>
+            <p><span class="green">&gt; SYSTEM READY</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         SYSTEM CARDS
+    ========================== -->
+    <section class="systems section" id="systems">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / CORE SYSTEMS</p>
+        <h2>BUILT FOR THE <span>FUTURE</span></h2>
+      </div>
+
+      <div class="system-cards">
+        <article class="system-card reveal">
+          <div class="card-number">01</div>
+          <div class="card-icon">◉</div>
+          <h3>NEURAL INTERFACE</h3>
+          <p>Direct interaction between biological cognition and intelligent machines.</p>
+          <a href="#contact">EXPLORE <span>↗</span></a>
+        </article>
+
+        <article class="system-card reveal">
+          <div class="card-number">02</div>
+          <div class="card-icon">⌬</div>
+          <h3>AI CORE</h3>
+          <p>Adaptive computational intelligence designed for real-time environments.</p>
+          <a href="#contact">EXPLORE <span>↗</span></a>
+        </article>
+
+        <article class="system-card reveal">
+          <div class="card-number">03</div>
+          <div class="card-icon">◈</div>
+          <h3>AUGMENTATION</h3>
+          <p>Technology that extends human capabilities through cybernetic systems.</p>
+          <a href="#contact">EXPLORE <span>↗</span></a>
+        </article>
+
+        <article class="system-card reveal">
+          <div class="card-number">04</div>
+          <div class="card-icon">⌁</div>
+          <h3>CONNECTED</h3>
+          <p>Humans, machines and intelligent networks operating as one ecosystem.</p>
+          <a href="#contact">EXPLORE <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================
+         CORE
+    ========================== -->
+    <section class="core-section section" id="core">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / CYBERNETIC CORE</p>
+        <h2>THE <span>CORE</span></h2>
+      </div>
+
+      <div class="core-layout">
+        <div class="core-visual reveal">
+          <div class="core-ring ring-outer"></div>
+          <div class="core-ring ring-middle"></div>
+          <div class="core-ring ring-inner"></div>
+          <div class="core-center">
+            <span>CORE</span>
+            <strong>98.7%</strong>
+            <small>STABLE</small>
+          </div>
+        </div>
+
+        <div class="core-data reveal">
+          <div class="data-row">
+            <span>NEURAL LINK</span>
+            <strong>94%</strong>
+            <div class="data-bar"><i style="width:94%"></i></div>
+          </div>
+          <div class="data-row">
+            <span>AI PROCESSING</span>
+            <strong>87%</strong>
+            <div class="data-bar"><i style="width:87%"></i></div>
+          </div>
+          <div class="data-row">
+            <span>NETWORK</span>
+            <strong>99%</strong>
+            <div class="data-bar"><i style="width:99%"></i></div>
+          </div>
+          <div class="data-row">
+            <span>MEMORY</span>
+            <strong>76%</strong>
+            <div class="data-bar"><i style="width:76%"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         FUTURE TIMELINE
+    ========================== -->
+    <section class="future section" id="future">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / PROJECTION</p>
+        <h2>THE <span>FUTURE</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span>2026</span>
+          <div>
+            <h3>ARTIFICIAL INTELLIGENCE</h3>
+            <p>Adaptive systems become integrated into everyday workflows.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <span>2028</span>
+          <div>
+            <h3>NEURAL INTERFACES</h3>
+            <p>Interfaces begin bridging biological signals and digital systems.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <span>2032</span>
+          <div>
+            <h3>HUMAN AUGMENTATION</h3>
+            <p>Cybernetic technology expands the boundaries of physical interaction.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <span>2040</span>
+          <div>
+            <h3>HUMAN × MACHINE</h3>
+            <p>A new era of interconnected biological and computational systems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CTA
+    ========================== -->
+    <section class="cta section" id="contact">
+      <div class="cta-box reveal">
+        <p class="eyebrow">05 / FINAL PROTOCOL</p>
+        <h2>READY TO<br><span>CONNECT?</span></h2>
+        <p>Replace this section with your project, startup, portfolio or product CTA.</p>
+        <a href="mailto:hello@example.com" class="btn btn-primary">INITIATE CONTACT ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="footer">
+    <div class="logo">CYBR<span>//01</span></div>
+    <p>SYSTEM STATUS: <span>ONLINE</span></p>
+    <p>© <span id="year"></span> CYBR//01</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body></html>
